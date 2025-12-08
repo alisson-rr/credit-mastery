@@ -102,7 +102,7 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "shimmer": "shimmer 2s infinite linear",
-        "pulse-gold": "pulse-gold 3s ease-in-out infinite",
+        "pulse-gold": "pulse-gold 5s ease-in-out infinite",
       },
     },
   },
