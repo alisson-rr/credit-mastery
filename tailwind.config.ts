@@ -94,15 +94,15 @@ export default {
           "100%": { backgroundPosition: "200% 0" },
         },
         "pulse-gold": {
-          "0%, 100%": { boxShadow: "0 0 0 0 hsl(42, 52%, 54%, 0.4)" },
-          "50%": { boxShadow: "0 0 0 15px hsl(42, 52%, 54%, 0)" },
+          "0%, 100%": { boxShadow: "0 0 20px 0 hsl(42, 52%, 54%, 0.15)" },
+          "50%": { boxShadow: "0 0 30px 5px hsl(42, 52%, 54%, 0.25)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "shimmer": "shimmer 2s infinite linear",
-        "pulse-gold": "pulse-gold 2s infinite",
+        "pulse-gold": "pulse-gold 3s ease-in-out infinite",
       },
     },
   },
