@@ -1,17 +1,31 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
-import path from "path";
+# Credit Mastery - Sistema de Crédito Inteligente
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  server: {
-    host: "::",
-    port: 8080,
-  },
-  plugins: [react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-});
+Sistema de curso online sobre análise de crédito desenvolvido pela Southsea Investments.
+
+## Tecnologias
+
+- **Vite** - Build tool
+- **React** - Framework UI
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Estilização
+- **shadcn/ui** - Componentes UI
+
+## Instalação
+
+```sh
+# Instalar dependências
+npm install
+
+# Iniciar servidor de desenvolvimento (porta 8080)
+npm run dev
+
+# Build de produção
+npm run build
+```
+
+## Scripts disponíveis
+
+- `npm run dev` - Servidor de desenvolvimento
+- `npm run build` - Build de produção
+- `npm run preview` - Preview do build
+- `npm run lint` - Verificação de código
