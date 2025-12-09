@@ -99,8 +99,8 @@ export default {
         },
       },
       animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
+        "accordion-down": "accordion-down 0.8s ease-out",
+        "accordion-up": "accordion-up 0.8s ease-out",
         "shimmer": "shimmer 2s infinite linear",
         "pulse-gold": "pulse-gold 5s ease-in-out infinite",
       },
