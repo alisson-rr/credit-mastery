@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: "O curso ajuda a melhorar meu score?",
-    answer: "O curso ensina muito mais do que score. Você entenderá como os bancos realmente avaliam solicitações de crédito, incluindo documentação, capacidade de pagamento e garantias — elementos muito mais importantes que apenas o score."
+    answer: "O curso ensina muito mais do que score. Você entenderá como os bancos realmente avaliam solicitações de crédito, incluindo documentação, capacidade de pagamento e garantias, elementos muito mais importantes que apenas o score."
   },
   {
     question: "Por quanto tempo terei acesso ao conteúdo?",

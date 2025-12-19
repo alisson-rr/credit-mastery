@@ -4,12 +4,11 @@ export function Footer() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full border border-gold/30 flex items-center justify-center">
-              <span className="font-display text-gold text-xs font-bold">S</span>
-            </div>
-            <span className="font-display text-sm text-foreground">
-              Southsea Investments
-            </span>
+            <img 
+              src="/logo.png" 
+              alt="Logo" 
+              className="h-8 object-contain"
+            />
           </div>
 
           <p className="font-body text-sm text-muted-foreground text-center">

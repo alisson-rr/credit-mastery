@@ -14,12 +14,12 @@ const steps = [
   {
     icon: BarChart3,
     title: "Os 5 Cs do Crédito",
-    description: "Caráter, Capacidade, Capital, Colateral e Condições — dominados."
+    description: "Caráter, Capacidade, Capital, Colateral e Condições, dominados."
   },
   {
     icon: Eye,
     title: "Visão Real dos Bancos",
-    description: "DSCR, EBITDA, Dívida Líquida — o que realmente importa."
+    description: "DSCR, EBITDA, Dívida Líquida, o que realmente importa."
   },
   {
     icon: ClipboardCheck,

@@ -75,9 +75,6 @@ export function Authority() {
                         Investments
                       </div>
                       <div className="w-12 h-px bg-gold/50 mx-auto my-3" />
-                      <div className="font-body text-xs text-muted-foreground uppercase tracking-wider">
-                        Florida, USA
-                      </div>
                     </div>
                   </div>
                 </div>

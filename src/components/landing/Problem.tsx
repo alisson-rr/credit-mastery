@@ -9,7 +9,7 @@ const problems = [
   {
     icon: TrendingDown,
     title: "Avaliação Técnica",
-    description: "Bancos avaliam risco de forma técnica e matemática — não emocional."
+    description: "Bancos avaliam risco de forma técnica e matemática, não emocional."
   },
   {
     icon: FileX,
@@ -19,7 +19,7 @@ const problems = [
   {
     icon: Percent,
     title: "Juros Elevados",
-    description: "Quem não conhece o sistema paga mais caro — muito mais caro."
+    description: "Quem não conhece o sistema paga mais caro, muito mais caro."
   }
 ];
 

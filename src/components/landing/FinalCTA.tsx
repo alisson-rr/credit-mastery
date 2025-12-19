@@ -39,16 +39,8 @@ export function FinalCTA() {
           {/* Southsea seal */}
           <div className="mt-16 pt-8 border-t border-border/30">
             <div className="inline-flex items-center gap-3 text-muted-foreground">
-              <div className="w-10 h-10 rounded-full border border-gold/30 flex items-center justify-center">
-                <span className="font-display text-gold text-sm font-bold">S</span>
-              </div>
-              <div className="text-left">
-                <div className="font-display text-sm font-semibold text-foreground">
-                  Southsea Investments
-                </div>
-                <div className="font-body text-xs text-muted-foreground">
-                  Florida, USA
-                </div>
+                <div className="flex items-center gap-2">
+                <img src="/logomarca.png" alt="Logo" className="h-36 object-contain"/>
               </div>
             </div>
           </div>

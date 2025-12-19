@@ -38,7 +38,7 @@ export function Offer() {
                 Sistema de Crédito Inteligente
               </h3>
               <p className="font-body text-muted-foreground mt-1">
-                Southsea Investments — Acesso Completo
+                Southsea Investments, Acesso Completo
               </p>
             </div>
 
