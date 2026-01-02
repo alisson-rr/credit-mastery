@@ -1,4 +1,4 @@
-import { Award, BarChart2, PieChart, TrendingUp } from "lucide-react";
+import { BarChart2, PieChart, TrendingUp } from "lucide-react";
 
 const metrics = [
   { label: "DSCR", value: "Debt Service Coverage Ratio", icon: BarChart2 },
@@ -24,12 +24,12 @@ export function Authority() {
               <span className="text-gold text-sm font-body uppercase tracking-widest mb-4 block">
                 Autoridade
               </span>
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
+              <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Conhecimento de <span className="text-gradient-gold">Nível Institucional</span>
               </h2>
               <div className="w-16 h-0.5 bg-gold mb-6" />
 
-              <p className="font-body text-lg text-muted-foreground leading-relaxed mb-8">
+              <p className="font-body text-base sm:text-lg text-muted-foreground leading-relaxed mb-8">
                 O curso foi desenvolvido utilizando os mesmos indicadores e metodologias 
                 que bancos e fundos de investimento utilizam para avaliar solicitações de crédito.
               </p>
@@ -57,26 +57,23 @@ export function Authority() {
               </div>
             </div>
 
-            {/* Right: Seal/Badge */}
+            {/* Right: Photo */}
             <div className="flex justify-center">
               <div className="relative">
-                {/* Glow effect */}
-                <div className="absolute inset-0 bg-gold/20 rounded-full blur-3xl" />
+                {/* Decorative elements */}
+                <div className="absolute -inset-4 bg-gradient-to-br from-gold/20 via-transparent to-gold/10 rounded-3xl blur-2xl" />
+                <div className="absolute -inset-1 bg-gradient-to-br from-gold/30 to-transparent rounded-2xl" />
+                
+                {/* Photo */}
+                <img 
+                  src="/Josemar.jpeg" 
+                  alt="Josemar" 
+                  className="relative w-64 h-64 md:w-72 md:h-72 object-cover rounded-2xl shadow-2xl border border-gold/20"
+                />
                 
                 {/* Badge */}
-                <div className="relative w-72 h-72 rounded-full border-2 border-gold/30 flex items-center justify-center bg-background/50 backdrop-blur-sm">
-                  <div className="w-56 h-56 rounded-full border border-gold/20 flex items-center justify-center">
-                    <div className="text-center p-6">
-                      <Award className="w-12 h-12 text-gold mx-auto mb-3" />
-                      <div className="font-display text-xl font-bold text-foreground mb-1">
-                        Southsea
-                      </div>
-                      <div className="font-display text-lg text-gradient-gold font-semibold">
-                        Investments
-                      </div>
-                      <div className="w-12 h-px bg-gold/50 mx-auto my-3" />
-                    </div>
-                  </div>
+                <div className="absolute -bottom-4 -left-4 bg-background/90 backdrop-blur-sm border border-gold/30 rounded-xl px-4 py-2 shadow-lg">
+                  <p className="font-display text-xs text-gold font-semibold">Especialista em Crédito</p>
                 </div>
               </div>
             </div>

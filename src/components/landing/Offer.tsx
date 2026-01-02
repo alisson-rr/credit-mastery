@@ -24,7 +24,7 @@ export function Offer() {
             <span className="text-gold text-sm font-body uppercase tracking-widest mb-4 block">
               Oferta Especial
             </span>
-            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+            <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 px-2">
               Garanta Seu Acesso <span className="text-gradient-gold">Agora</span>
             </h2>
             <div className="section-divider my-8" />
@@ -34,7 +34,7 @@ export function Offer() {
           <div className="bg-card-gradient border border-gold/30 rounded-2xl overflow-hidden shadow-2xl glow-gold">
             {/* Header */}
             <div className="bg-gradient-to-r from-gold/20 to-gold/5 border-b border-gold/20 p-6 text-center">
-              <h3 className="font-display text-2xl font-bold text-foreground">
+              <h3 className="font-display text-xl sm:text-2xl font-bold text-foreground">
                 Sistema de Crédito Inteligente
               </h3>
               <p className="font-body text-muted-foreground mt-1">
@@ -43,7 +43,7 @@ export function Offer() {
             </div>
 
             {/* Body */}
-            <div className="p-8 md:p-12">
+            <div className="p-4 sm:p-8 md:p-12">
               <div className="grid md:grid-cols-2 gap-8">
                 {/* Benefits list */}
                 <div>
@@ -52,9 +52,9 @@ export function Offer() {
                   </h4>
                   <ul className="space-y-3">
                     {included.map((item, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                        <span className="font-body text-muted-foreground">{item}</span>
+                      <li key={index} className="flex items-start gap-2 sm:gap-3">
+                        <Check className="w-4 h-4 sm:w-5 sm:h-5 text-gold flex-shrink-0 mt-0.5" />
+                        <span className="font-body text-sm sm:text-base text-muted-foreground break-words">{item}</span>
                       </li>
                     ))}
                   </ul>
@@ -79,8 +79,8 @@ export function Offer() {
 
                   <Button 
                     variant="hero" 
-                    size="xl" 
-                    className="w-full max-w-sm mb-4"
+                    size="lg" 
+                    className="w-full max-w-xs text-sm sm:text-base mb-4"
                     onClick={() => window.open('https://hotmart.com', '_blank')}
                   >
                     Quero Dominar o Crédito
@@ -95,7 +95,7 @@ export function Offer() {
 
             {/* Footer badges */}
             <div className="bg-secondary/30 border-t border-border/30 p-4">
-              <div className="flex flex-wrap justify-center gap-6 text-muted-foreground">
+              <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-muted-foreground">
                 <div className="flex items-center gap-2 text-sm font-body">
                   <Award className="w-4 h-4 text-gold" />
                   Certificado Incluso

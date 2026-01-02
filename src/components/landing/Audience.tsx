@@ -36,7 +36,7 @@ export function Audience() {
           <span className="text-gold text-sm font-body uppercase tracking-widest mb-4 block">
             Para Quem É
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 px-2">
             Este Curso Foi Feito <span className="text-gradient-gold">Para Você</span>
           </h2>
           <div className="section-divider my-8" />

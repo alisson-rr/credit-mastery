@@ -51,7 +51,7 @@ export function Modules() {
           <span className="text-gold text-sm font-body uppercase tracking-widest mb-4 block">
             Conteúdo Completo
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 px-2">
             O Que Você Vai <span className="text-gradient-gold">Aprender</span>
           </h2>
           <div className="section-divider my-8" />

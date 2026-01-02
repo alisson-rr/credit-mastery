@@ -36,10 +36,10 @@ export function Solution() {
           <span className="text-gold text-sm font-body uppercase tracking-widest mb-4 block">
             A Solução
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 px-2">
             O Método <span className="text-gradient-gold">Southsea</span>
           </h2>
-          <p className="font-body text-lg text-muted-foreground leading-relaxed">
+          <p className="font-body text-base sm:text-lg text-muted-foreground leading-relaxed px-2">
             Um sistema estruturado, desenvolvido por profissionais do mercado financeiro, 
             para você dominar crédito como um analista de banco.
           </p>

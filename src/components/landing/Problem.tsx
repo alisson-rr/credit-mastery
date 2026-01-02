@@ -36,7 +36,7 @@ export function Problem() {
           <span className="text-gold text-sm font-body uppercase tracking-widest mb-4 block">
             O Problema
           </span>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 px-2">
             Por Que Tantos <span className="text-gradient-gold">Fracassam</span> com Crédito?
           </h2>
           <div className="section-divider my-8" />
@@ -69,7 +69,7 @@ export function Problem() {
         <div className="max-w-3xl mx-auto text-center">
           <blockquote className="relative">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 text-gold/20 text-6xl font-display">"</div>
-            <p className="font-display text-2xl md:text-3xl text-foreground italic leading-relaxed">
+            <p className="font-display text-xl sm:text-2xl md:text-3xl text-foreground italic leading-relaxed px-2">
               Sem método, crédito afunda.
               <br />
               <span className="text-gradient-gold">Com método, crédito impulsiona.</span>
